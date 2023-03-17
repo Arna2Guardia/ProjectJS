@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"/>
+    <link rel="stylesheet" href = "../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Sono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+  </head>
+
+  <body class="bdy-background grey darken-4">
+    <header>
+      <nav id="nav" class = "grey darken-4">
+        <div class="nav-wrapper">
+          <a href="https://guardia.school" rel="nofollow" target="_blank" class="brand-logo"><img id="logo-g" src="../img/guardia_logo.png" alt="Guardia Cybersecuritty School's logo"></a>
+          <a href="#" data-target="mobile-demo" class="class-nav sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul>
+              <li class= "right"><a class= "class-nav" href="index.html"><i class="material-icons">refresh</i></a></li>
+                <li class="right switch right hide-on-med-and-down">
+                    <label id="mylbl" >
+                      <input type="checkbox" onclick="light_mode()">
+                        <span class="lever" ></span>
+                    </label>
+                </li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav modal-trigger" href="#modal1"><i class= "material-icons">chat</i></a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_3.html">Projet 3</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_2.html">Projet 2</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_1.html">Projet 1</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="index.html">Home</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+<!-- <i class="material-icons ">chat</i></a></li> -->
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+      <li><a class="class-nav white-text" href="index.html">Home</a></li>
+      <li><a class="class-nav white-text" href="project_1.html">Projet 1</a></li>
+      <li><a class="class-nav white-text" href="project_2.html">Projet 2</a></li>
+      <li><a class="class-nav white-text" href="project_3.html">Projet 3</a></li>
+      <li><a  class="modal-trigger" href="#modal1"><i class= "material-icons blue-text">chat</i></a></li>
+      <li class= "switch">
+          <label>
+            Off
+            <input type="checkbox">
+              <span class="lever" onclick='light_mode()'></span>
+                On
+          </label>
+      </li>
+    </ul>
+    <div class='space'></div>
+    <div class='row'>
+      <div class='col s12 m4 l2'>
+        <img src='../img/plot.png' alt = 'Plot chantier'>
+      </div>
+      <div class='col s12 m4 l8'>
+        <h1 class='test-col center white-text'>We are actually working on it ! <br>Come back later !!!</h1>
+      </div>
+      <div class='col s12 m4 l2'>
+        <img src ='../img/plot.png' alt = 'Plot chantier'>
+      </div>
+    </div>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="input-field col s12">
+            <input id="message" type="text" class="validate">
+            <label for="message">Message</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn">Submit</a>
+    </div>
+  </div>
+</div>
+<div class='space-big'></div>
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Easter Eggs</h5>
+          <p class="grey-text text-lighten-4">Will you find them all ?</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://guardia.school" rel="nofollow" target="_blank">Guardia Cybersecuritty School</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lucas-durand-7768b9251/" rel="nofollow" target="_blank">Lucas DURAND's Linkedin</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/matthieu-padovan-b18147252/" rel="nofollow" target="_blank">Matthieu PADOVAN's Linkedin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-2">
+      <div class="container">
+      © 2022 Guardia's Students. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

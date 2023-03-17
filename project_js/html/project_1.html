@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="../css/materialize.css">
+    <link rel="stylesheet" href = "../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+
+  <body class='body-proj1 grey lighten-1'>
+    <header>
+      <nav id="nav" class = "grey darken-4">
+        <div class="nav-wrapper">
+          <a href="https://guardia.school" rel="nofollow" target="_blank" class="brand-logo"><img id="logo-g" src="../img/guardia_logo.png" alt="Guardia Cybersecuritty School's logo"></a>
+          <a href="#" data-target="mobile-demo" class="class-nav sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul>
+              <li class= "right"><a class= "class-nav" href="index.html"><i class="material-icons">refresh</i></a></li>
+                <li class="right switch right hide-on-med-and-down">
+                    <label id="mylbl" >
+                      <input type="checkbox" onclick="light_mode()">
+                        <span class="lever" ></span>
+                    </label>
+                </li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav modal-trigger" href="#modal1"><i class= "material-icons">chat</i></a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_3.html">Projet 3</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_2.html">Projet 2</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_1.html">Projet 1</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="index.html">Home</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+  <!-- <i class="material-icons ">chat</i></a></li> -->
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+      <li><a class="class-nav white-text" href="index.html">Home</a></li>
+      <li><a class="class-nav white-text" href="project_1.html">Projet 1</a></li>
+      <li><a class="class-nav white-text" href="project_2.html">Projet 2</a></li>
+      <li><a class="class-nav white-text" href="project_3.html">Projet 3</a></li>
+      <li><a  class="modal-trigger" href="#modal1"><i class= "material-icons blue-text">chat</i></a></li>
+      <li class= "switch">
+          <label>
+            Off
+            <input type="checkbox">
+              <span class="lever" onclick='light_mode()'></span>
+                On
+          </label>
+      </li>
+    </ul>
+
+    <div class='proj1-txt container'>
+      <h1 class='h1-p1 black-text'>Introduction to computer systems</h1>
+      <div class='row'>
+        <div class='col s12 m12 l9 offset-l3 offset-m1'>
+          <img id="img_serv" src='../img/image_serv.png' alt = 'image server'>
+        </div>
+        <p class='col s12 m10 l10 offset-l1 offset-m1 h1-p'>Our first project was about the client-server connection. We learnt how to set up a Windows server, how to set up a server on a debian virtual machine and how to configure a DNS, a webmail and a website through ISP-Config.</p>
+      </div>
+      <div class='space'></div>
+      <div class='row'>
+        <div class='col s12 m4 l8 offset-m4 offset-l4'>
+          <img src='../img/ssh_logo.png' alt='logo ssh'>
+          <img src='../img/http_logo.png' alt ='logo http'>
+          <img src='../img/ftp_logo.png' alt ='logo ftp'>
+        </div>
+        <div class='col s12 m6 l6 offset-m6 offset-l3 h1-p'>
+          <p>We also learnt how to use the SSH protocol, and how the SSH,HTTP and FTP protocols work.</p>
+        </div>
+      </div>
+    </div>
+
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class ="input-field col s6">
+              <input  id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="input-field col s12">
+            <input id="message" type="text" class="validate">
+            <label for="message">Message</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn">Submit</a>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Easter Eggs</h5>
+        <p class="grey-text text-lighten-4">Will you find them all ?</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://guardia.school" rel="nofollow" target="_blank">Guardia Cybersecuritty School</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lucas-durand-7768b9251/" rel="nofollow" target="_blank">Lucas DURAND's Linkedin</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/matthieu-padovan-b18147252/" rel="nofollow" target="_blank">Matthieu PADOVAN's Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright grey darken-2">
+    <div class="container">
+    © 2022 Guardia's Students. All Rights Reserved
+    </div>
+  </div>
+  </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/script.js"></script>
+
+  </body>
+</html>

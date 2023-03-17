@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"/>
+    <link rel="stylesheet" href = "../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Sono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>Portfolio | Lucas Matthieu</title>
+  </head>
+
+  <body class="bdy-background grey darken-4">
+    <header>
+      <nav id="nav" class = "grey darken-4">
+        <div class="nav-wrapper">
+          <a href="https://guardia.school" rel="nofollow" target="_blank" class="brand-logo"><img id="logo-g" src="../img/guardia_logo.png" alt="Guardia Cybersecuritty School's logo"></a>
+          <a href="#" data-target="mobile-demo" class="class-nav sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul>
+              <li class= "right"><a class= "class-nav" href="index.html"><i class="material-icons">refresh</i></a></li>
+                <li class="right switch right hide-on-med-and-down">
+                    <label id="mylbl" >
+                      <input type="checkbox" onclick="light_mode()">
+                        <span class="lever" ></span>
+                    </label>
+                </li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav modal-trigger" href="#modal1"><i class= "material-icons">chat</i></a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_3.html">Projet 3</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_2.html">Projet 2</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="project_1.html">Projet 1</a></li>
+                <li class="right hide-on-med-and-down "><a  class="class-nav white-text waves-light" href="index.html">Home</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+      <li><a class="class-nav white-text" href="index.html">Home</a></li>
+      <li><a class="class-nav white-text" href="project_1.html">Projet 1</a></li>
+      <li><a class="class-nav white-text" href="project_2.html">Projet 2</a></li>
+      <li><a class="class-nav white-text" href="project_3.html">Projet 3</a></li>
+      <li><a  class="class-nav modal-trigger white-text" href="#modal1"><i class= "material-icons blue-text">chat</i></a></li>
+      <li class= "switch">
+          <label>
+            Off
+            <input type="checkbox">
+              <span class="lever" onclick='light_mode()'></span>
+                On
+          </label>
+      </li>
+    </ul>
+
+    <div class="parallax-container">
+     <div  class="parallax"><img id="bg-parallax" src="../img/background.jpg" alt='Background Portfolio'></div>
+       <div class="center eceff1-text">
+         <h1>Lucas - Matthieu <br> Portfolio </h1>
+       </div>
+     </div>
+   </div>
+
+  <div id="page" class="grey darken-4">
+    <a href="#nav" class="waves-effect waves-light" onclick="ape_mode()"><img id="ape-tete" src="../img/ape_logo.png" alt="ape logo"></a>
+     <div class="row" id="us">
+      <div class="col s12 m4 offset-m2 l3 offset-l2 ">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="ape-lucas" class="activator" src="../img/moi.jpg" alt="ape1">
+          </div>
+          <div class="card-content grey darken-4">
+            <span class="titles card-title activator white-text">Lucas<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal grey darken-4 white-text">
+            <span class="titles card-title grey darken-4 white-text">Lucas<i class="material-icons right">close</i></span>
+            <ul>
+              <li class="text-card"><p>I am a 21 years old Guardia student. </p></li>
+              <li class="text-card"><p>I am from Bordeaux and i left University after I have graduated my second years in mathematics and computering. </p></li>
+              <li class="text-card"><p>I already know few langages such as C and python but I am new to HTML, CSS and JavaScript</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 m2 l2"></div>
+      <div class="col s12 m4 offset-m1 l3 ">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img id="ape-matthieu" class="activator" src="../img/matthieu.jpg" alt="ape2">
+          </div>
+          <div class="card-content grey darken-4">
+            <span class="titles card-title activator white-text">Matthieu<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal grey darken-4 white-text">
+            <span class="titles card-title grey darken-4 white-text">Matthieu<i class="material-icons right">close</i></span>
+            <ul>
+              <li class="text-card"><p>I am a 18 years old Guardia student.</p></li>
+              <li class="text-card"><p>I am from Montpellier and I just graduated High School where I specialized in Mathematics and Physics.</p></li>
+              <li class="text-card"><p>I know a litlle about programming, but I'm learning everyday with Guardia.</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-carousel blue-grey darken-4 ">
+    <div class="space-big"></div>
+    <div class=row>
+      <div id="carou" class="center col s12 m4 offset-m4 l12 white-text">
+        <h2 class="project white-text">Our projects in Guardia since 09/2022</h2>
+      </div>
+      <div class="carousel s12 m4 offset-m4 l8 offset-l2">
+        <a class="carousel-item" href="project_2.html"><img id="mario" src="../img/morpion.jpg" alt="Screen morpion"></a>
+        <a class="carousel-item" href="project_1.html"><img id="luigi" src="../img/server.jpg" alt="Screen server"></a>
+        <a class="carousel-item" href="project_3.html"><img id="toad" src="../img/website.jpg" alt="Screen website"></a>
+        <a class="carousel-item" href="project_4.html"><img id="interrogation" src="../img/interrogation_mark.jpg" alt="interrogation mark"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="input-field col s12">
+              <input id="message" type="text" class="validate">
+              <label for="message">Message</label>
+            </div>
+          </form>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn">Submit</a>
+      </div>
+    </div>
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Easter Eggs</h5>
+          <p class="grey-text text-lighten-4">Will you find them all ?</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://guardia.school" rel="nofollow" target="_blank">Guardia Cybersecuritty School</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lucas-durand-7768b9251/" rel="nofollow" target="_blank">Lucas DURAND's Linkedin</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/matthieu-padovan-b18147252/" rel="nofollow" target="_blank">Matthieu PADOVAN's Linkedin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-2">
+      <div class="container">
+      © 2022 Guardia's Students. All Rights Reserved
+      </div>
+    </div>
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/script.js"></script>
+
+
+  </body>
+</html>
